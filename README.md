@@ -135,5 +135,5 @@ This project is for educational purposes.
 ---
 
 <p align="center">
-  <i>Built with ❤️ by Papilla Picasso Team</i>
+  
 </p>
