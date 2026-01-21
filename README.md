@@ -101,15 +101,6 @@ Dataset from Kaggle: [Identification of Pseudopapilledema](https://www.kaggle.co
 
 **Split:** 70% Train / 15% Validation / 15% Test
 
-## 📁 Project Structure
-
-```
-Papilledema-Detection/
-├── dip_fina_project.py    # Main training script (Colab notebook)
-├── requirements.txt        # Dependencies
-├── README.md
-└── .gitignore
-```
 
 ## 🔍 Grad-CAM Visualization
 
@@ -121,10 +112,6 @@ The heatmap validates that the model focuses strictly on the **Optic Disc** and 
 2. **External Validation:** Tested on same source distribution only
 3. **Patient Data:** Diagnosis based purely on images, ignoring clinical history
 
-## 🔮 Future Work
-
-- **Deployment:** Web interface using Gradio for real-time clinical testing
-- **Ensemble:** Combining MobileNetV2 with EfficientNetB0 in a weighted voting system
 
 ## 👥 Team - Papilla Picasso
 
@@ -139,7 +126,7 @@ The heatmap validates that the model focuses strictly on the **Optic Disc** and 
 - **Course:** COMP 4360 - Digital Image Processing
 - **Instructor:** Dr. Suphi Uçar
 - **University:** Yaşar University - Faculty of Engineering
-- **Date:** December 2025
+
 
 ## 📄 License
 
