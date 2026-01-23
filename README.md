@@ -121,14 +121,14 @@ The heatmap validates that the model focuses strictly on the **Optic Disc** and 
 | Gökalp Olukcu | 21070001208 |
 | Özgür Can Güngör | 21070001058 |
 
-## 🎓 Course Information
+## Course Information
 
 - **Course:** COMP 4360 - Digital Image Processing
 - **Instructor:** Dr. Suphi Uçar
 - **University:** Yaşar University - Faculty of Engineering
 
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
