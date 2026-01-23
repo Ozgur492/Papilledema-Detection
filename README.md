@@ -1,4 +1,4 @@
-# 🧠 Papilledema Detection
+# Papilledema Detection
 
 AI-powered automated diagnosis system using Hybrid Digital Image Processing & Deep Learning.
 
@@ -8,13 +8,13 @@ AI-powered automated diagnosis system using Hybrid Digital Image Processing & De
 ![Accuracy](https://img.shields.io/badge/Accuracy-94.23%25-brightgreen.svg)
 ![Recall](https://img.shields.io/badge/Recall-0.96-brightgreen.svg)
 
-## 📋 Overview
+## Overview
 
 Papilledema (optic disc swelling) is a critical sign of increased intracranial pressure. However, it looks extremely similar to "Pseudopapilledema" (false swelling), making manual diagnosis error-prone.
 
 This project implements a hybrid system combining **Classical Digital Image Processing** techniques with **Deep Learning** to achieve highly accurate and sensitive diagnosis.
 
-## ✨ Key Features
+## Key Features
 
 - **Hybrid Preprocessing Pipeline:** CLAHE + Unsharp Masking for enhanced feature visibility
 - **Multi-Model Comparison:** MobileNetV2, EfficientNetB0, DenseNet121
@@ -23,7 +23,7 @@ This project implements a hybrid system combining **Classical Digital Image Proc
 - **Grad-CAM Visualization:** Model interpretability and validation
 - **Web Interface:** Gradio-based real-time diagnosis demo
 
-## 🏆 Results
+## Results
 
 | Model | Accuracy | Recall (Sensitivity) | Status |
 |-------|----------|---------------------|--------|
@@ -33,7 +33,7 @@ This project implements a hybrid system combining **Classical Digital Image Proc
 
 > **Surprise Result:** Lightweight MobileNetV2 outperformed heavier architectures due to better adaptation to our preprocessed dataset.
 
-## 🔬 Methodology
+## Methodology
 
 ### 1. Preprocessing Pipeline
 
@@ -53,7 +53,7 @@ Raw Fundus Image → CLAHE → Unsharp Masking → Model Input
 
 Custom callback mechanism that automatically reverts to Phase 1 weights if Phase 2 causes validation loss to increase (overfitting).
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python 3.8+
 - TensorFlow / Keras
@@ -63,7 +63,7 @@ Custom callback mechanism that automatically reverts to Phase 1 weights if Phase
 - Gradio (Web Interface)
 - Google Colab (Training)
 
-## 🚀 Installation
+## Installation
 
 ```bash
 # Clone the repository
@@ -74,7 +74,7 @@ cd Papilledema-Detection
 pip install tensorflow opencv-python numpy matplotlib seaborn gradio kagglehub split-folders
 ```
 
-## 💻 Usage
+## Usage
 
 ### Training (Google Colab recommended)
 
@@ -90,7 +90,7 @@ python dip_fina_project.py
 python -c "import gradio_demo"
 ```
 
-## 📊 Dataset
+## Dataset
 
 Dataset from Kaggle: [Identification of Pseudopapilledema](https://www.kaggle.com/datasets/shashwatwork/identification-of-pseudopapilledema)
 
@@ -102,18 +102,18 @@ Dataset from Kaggle: [Identification of Pseudopapilledema](https://www.kaggle.co
 **Split:** 70% Train / 15% Validation / 15% Test
 
 
-## 🔍 Grad-CAM Visualization
+## Grad-CAM Visualization
 
 The heatmap validates that the model focuses strictly on the **Optic Disc** and vessel origins, confirming the model is detecting "swelling" and not background artifacts.
 
-## ⚠️ Limitations
+## Limitations
 
 1. **Dataset Size:** Small number of samples in "Pseudopapilledema" class
 2. **External Validation:** Tested on same source distribution only
 3. **Patient Data:** Diagnosis based purely on images, ignoring clinical history
 
 
-## 👥 Team - Papilla Picasso
+## Team - Papilla Picasso
 
 | Name | Student ID |
 |------|------------|
@@ -130,7 +130,9 @@ The heatmap validates that the model focuses strictly on the **Optic Disc** and 
 
 ## 📄 License
 
-This project is for educational purposes.
+This project is licensed under the MIT License.
+
+Note: This project was developed for educational purposes
 
 ---
 
